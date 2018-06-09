@@ -5,21 +5,13 @@ declare(strict_types=1);
 namespace ChestKits;
 
 use pocketmine\block\Block;
-
 use pocketmine\command\{Command, CommandSender};
-
 use pocketmine\inventory\ChestInventory;
-
 use pocketmine\item\{Item, ItemFactory};
-
 use pocketmine\{Player, Server};
-
 use pocketmine\plugin\PluginBase;
-
 use pocketmine\nbt\{NBT, tag\CompoundTag, tag\IntTag, tag\ListTag, tag\StringTag};
-
 use pocketmine\tile\{Tile, Chest};
-
 use pocketmine\utils\TextFormat as C;
 
 class Main extends PluginBase {
@@ -49,7 +41,7 @@ class Main extends PluginBase {
                 $nbt = new CompoundTag("BlockEntityTag", [new ListTag("Items", [$helmet->nbtSerialize(0), $chestplate->nbtSerialize(1), $leggings->nbtSerialize(2), $boots->nbtSerialize(3), $sword->nbtSerialize(4)])]);
                 $chest = ItemFactory::get(Block::CHEST, 0, 1);
                 $chest->setNamedTagEntry($nbt);
-                $chest->setCustomName("Kit");
+                $chest->setCustomName("Test by Emerald");
                 $sender->getInventory()->addItem($chest);
                 break;
         }
