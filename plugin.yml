@@ -5,5 +5,7 @@ version: 1.0
 api: [3.0.0-ALPHA7, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12]
 
 commands:
-  kit:
-    description: Get a chest
+  starter:
+    description: §l§bCube§dX §r§eStarter Rank §6KIT
+  vip:
+    description: §l§bCube§dX §r§aVIP Rank §2KIT
