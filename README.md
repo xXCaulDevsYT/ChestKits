@@ -1,7 +1,27 @@
-# ChestKits
-An example on how to make chest kits
+#ChestKitsX
+##Forked From [PotatoeTrainYT](https://github.com/PotatoeTrainYT)
+##And Remade Into A Fully Functional Working ChestKits Plugin
 
-## This is not a functional kit plugin
-This was made to help some developers make the chest kits originally from ECPE
+##To Do List:
 
-I won't be updating this plugin so don't bother making a pr
+- [x] Poggit File
+- [x] Phar Link
+- [x] Editable
+- [ ] Kits All In 1 Command
+- [ ] A Config.yml
+- [ ] Commands On Kit Claim
+- [ ] Kit Cooldowns
+- [ ] Broadcasts
+
+##Version:
+
+- [x] Beta 1.0
+- [x] 1.0 - CS
+- [x] BetaCK - 1.0
+- [ ] CK - 1.0
+- [ ] CK - 2.0
+
+###Thanks For Downloading
+
+
+
